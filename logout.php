@@ -1,0 +1,10 @@
+<?php
+session_start();
+unset($_SESSION['ROLE']);
+unset($_SESSION['USER_ID']);
+unset($_SESSION['NAME']);
+unset($_SESSION['PLANT']);
+unset($_SESSION['IMG']);
+header('location:index.php');
+die();
+?>
